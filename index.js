@@ -1,11 +1,12 @@
 const cTable = require("console.table");
 const inquirer = require("inquirer");
 const db = require("./src/db_helper");
+const figlet = require("figlet");
+
 // import models;
 const { Department, Role, Employee } = require("./model");
 // import helper query functions
 const {
-  updateEmployee,
   createEmployee,
   listEmployees,
   listEmployeesIdAndNames,
@@ -213,26 +214,21 @@ var updateEmployeeRolePrompt = function (id) {
     });
 };
 
-var listRolePrompt = function () {
-  // TODO:
-  const roleChoice = [
-    {
-      type: "expand",
-      name: "options",
-      message: "Please choose one of the roles.",
-      pageSize: 8,
-      choices: [],
-    },
-  ];
-  listRolesIdAndTitle((results) => {
-    console.log("here...........");
-    console.log(results);
-  });
-};
-
-var employeeUpdatePrompt = function () {
-  // TODO:
-};
-
 // main entry
-choice_prompt();
+figlet(
+  "Employee Tracker",
+  {
+    font: "ANSI Regular",
+    verticalLayout: "fitted",
+  },
+  function (err, data) {
+    if (err) {
+      console.log("Something went wrong...");
+      console.dir(err);
+      return;
+    }
+    console.log("====================");
+    console.log(data);
+    choice_prompt();
+  }
+);

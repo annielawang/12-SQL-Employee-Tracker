@@ -24,6 +24,8 @@ npm install
 
 ![Screenshot](12.png)
 
+[Video link](https://watch.screencastify.com/v/rGRLKuH10nV09hKiDlqu)
+
 To use this application, type in npm start (or node index.js) in command line.
 
 When I start the application, then I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role

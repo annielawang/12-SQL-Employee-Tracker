@@ -28,7 +28,7 @@ CLI as the backend.
 REST API as the frontend.
 ![Screenshot](restapi.png)
 
-[Video link](https://watch.screencastify.com/v/rGRLKuH10nV09hKiDlqu)
+[CLI tool Recording link](https://watch.screencastify.com/v/rGRLKuH10nV09hKiDlqu)
 
 To use this application, type in npm start (or node index.js) in command line.
 

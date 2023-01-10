@@ -22,7 +22,11 @@ npm install
 
 ## Usage
 
-![Screenshot](12.png)
+CLI as the backend.
+![Screenshot](cli.png)
+
+REST API as the frontend.
+![Screenshot](restapi.png)
 
 [Video link](https://watch.screencastify.com/v/rGRLKuH10nV09hKiDlqu)
 

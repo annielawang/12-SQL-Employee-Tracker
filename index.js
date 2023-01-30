@@ -1,10 +1,9 @@
-const cTable = require("console.table");
 const inquirer = require("inquirer");
 const db = require("./src/db_helper");
 const figlet = require("figlet");
 
 // import models;
-const { Department, Role, Employee } = require("./model");
+const { Department, Role } = require("./model");
 // import helper query functions
 const {
   createEmployee,

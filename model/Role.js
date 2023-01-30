@@ -1,22 +1,17 @@
 // Role class
 class Role {
-    constructor(title, salary, department_id){
-        this.title = title;
-        this.salary = salary;
-        // this.department_id = department_id;
-    }
-    
-    getTitle(){
-        return this.title;
-    }
+  constructor(title, salary) {
+    this.title = title;
+    this.salary = salary;
+  }
 
-    getSalary(){
-        return this.salary;
-    }
+  getTitle() {
+    return this.title;
+  }
 
-    // getDepartmentId(){
-    //     return this.department_id;
-    // }
+  getSalary() {
+    return this.salary;
+  }
 }
 
 module.exports = Role;
